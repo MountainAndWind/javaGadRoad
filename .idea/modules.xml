@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaGadRoad.iml" filepath="$PROJECT_DIR$/.idea/javaGadRoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaNewFeature/javaNewFeature.iml" filepath="$PROJECT_DIR$/javaNewFeature/javaNewFeature.iml" />
+    </modules>
+  </component>
+</project>
