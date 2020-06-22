@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 import org.junit.Test;
 
 /*
- * 一、Stream API 的操作步骤：
+ * 一、Stream API 的操作步骤： 创建操作 与中间操作之筛选与切片
  * 
  * 1. 创建 Stream
  * 

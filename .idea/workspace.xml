@@ -1,242 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5e70a6-d78a-4525-91e4-c8100d6ee28e" name="Default" comment="jvm文档推送">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/activation_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/JVM/文档笔记/jvm总结第三章.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/JVM/文档笔记/jvm第二章总结.docx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/JVM/文档笔记/readmme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/Class/MethodTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/DesignPatterns/AbstractMethod/AMethod.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadLocalDome.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/CountNumberDome$Task.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/CountNumberDome.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/Dome1$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/Dome1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/ForkJoinPoolDome$AddTask2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/FutureDome$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/FutureDome.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/ScheduledPoolDome$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/ScheduledPoolDome.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/WorkSteelPoolDome$R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/XainCheng/ThreadPool/WorkSteelPoolDome.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/DESUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebServiceImplService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebServiceImplServiceLocator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebServiceImplServiceSoapBindingStub.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebServiceProxy.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MethodTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/ValueTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/zlk/test/webService/dangAn/nc.itf.pubapp.service.IProjectService" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/nc/itf/pubapp/service/IProjectService/ActionTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/nc/itf/pubapp/service/IProjectService/IProjectService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/nc/itf/pubapp/service/IProjectService/IProjectServiceLocator.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/nc/itf/pubapp/service/IProjectService/IProjectServicePortType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/nc/itf/pubapp/service/IProjectService/IProjectServicePortTypeProxy.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/nc/itf/pubapp/service/IProjectService/IProjectServiceSOAP11BindingStub.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/project_sendcontent20191120101010.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/CharSet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/DateTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/DateUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/Father.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/FtpUploadTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/FtpUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/HolidayUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/JosnTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/JsonTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/SmbFileUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/StringUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/XMLUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/XmlRemoteTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/XmlTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/share/ShareDirUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/test2/share/Test1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/util/DateUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/util/StringUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/util/excelPoi/ExcelProtUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/ActionTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DataBaseCon/ExcelUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DataBaseCon/MianTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DataBaseCon/OperateOracle.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DateTime/TestOne.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DateTime/TestTwo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DesUtil/DesKeySpecByMy.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/DesUtil/DesUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Conf.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/ExcelProtUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/ExcelProtUtils2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/ExcelUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Mobile.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Stringtest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Test.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Test2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Test3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Test4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/Test5.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/git/BeanInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/git/ExcelFormat.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/git/ExcelHeaderInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/git/ExcelUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/git/TestInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/git/TestOne.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/update/Bean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/update/ExcelUsedUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/EXCEL/update/MainTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/File/FileCreateTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/ConnectionTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/ConnectionTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/EncodeUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/EncodingTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/FtpUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/FtpUtilsNew.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/XMLUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Ftp/XmlParse.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/FtpUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/GetPath.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/ApplyDate.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/Applyer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/ApproveInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/ApproveReturnInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/Approver.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/Attendance.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/Contents.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/DateRange.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/RecordDetails.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/SpNo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/SpNoReturnBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/SpRecord.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/Title.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/TokenMsgBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Bean/Value.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/GetUnixStarp.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/HttpClientUtils$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/HttpClientUtils$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/HttpClientUtils$HttpClientDownLoadProgress.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/HttpClientUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/JsonTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/LongYeBanKRequestWeixin.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/MD5.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/NfTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Request.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Zhongten/Index.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/Zhongten/MD5Utils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/shizheng/Bean/OrganizationInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/shizheng/Bean/OrganizationReturnInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/shizheng/Bean/PostInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/shizheng/Bean/PostRetunrnInfo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/HttpRequest/shizheng/RequestTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/FileCharsetConvert$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/FileCharsetConvert.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/FilePathDemo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/FileUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/Test1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/UTF8Test.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/UnicodeInputStream.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/IO/UnicodeReader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/ListQuChong.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Map/Test1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/MapTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/Number.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/NumberTest/SerNumber.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/ObjectEquals$Dt1Node.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/ObjectEquals.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/PBE.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/PasswordUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/ProperitesRead.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/SmbFileUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/String/ConvertTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/String/JsonPinjie.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/String/SpiltTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/String/StrCreate.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/String/StringTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/StringUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/XmlTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/date/DateCompar.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/date/DateTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/date/DateTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/json/AlJosnTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/json/JosnTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/json/JsonTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/json/NetSfJsonTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/json/Student.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/project_sendcontent20191120101010.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/remoteRequest/HttpUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/weaver/workflow/DataBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/weaver/workflow/DatePre.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/weaver/workflow/DevMethodTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/FileTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/FtpUtils.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/Get/ParseXml$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/Get/ParseXml.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/XMLUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/XmlParse.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/push/PushTest1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/zlk/test/xml/push/PushTest2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/GitTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/DateFormatThreadLocal$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/DateFormatThreadLocal.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Employee$Status.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/ForkJoinCalculate.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Godness.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Man.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyInterface.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/NewMan.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestForkJoin.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLocalDateTime.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestOptional.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestSimpleDateFormat$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestSimpleDateFormat.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/StreamStudy.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/TestStreamAPI.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/TestTransaction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/Trader.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/Transaction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/exer/AbTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/exer/LambdaStudy.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/exer/MyFunction.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/exer/MyFunction2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/exer/TestLambda.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/exer/sd1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/DateFormatThreadLocal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/ForkJoinCalculate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Godness.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Man.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyInterface.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/NewMan.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestForkJoin.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLocalDateTime.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestOptional.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestSimpleDateFormat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestStreamAPI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestTransaction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Trader.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/AbTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/LambdaStudy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/MyFunction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/MyFunction2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/TestLambda.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/sd1.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/javaGadRoad.iml" afterPath="$PROJECT_DIR$/.idea/javaGadRoad.iml" />
+    <list default="true" id="cd5e70a6-d78a-4525-91e4-c8100d6ee28e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/JAVA_BCXX" afterPath="$PROJECT_DIR$/JAVA_BCXX" />
-      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Employee.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Employee.class" />
-      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyFun.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyFun.class" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Employee.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyFun.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyFun.java" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda3.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda3.java" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI1.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI1.class" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/StreamStudy.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/StreamStudy.class" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" />
       <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -253,54 +26,72 @@
       <file leaf-file-name="StreamStudy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="3852">
+              <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#test1#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test2#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#before#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test3#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test4#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test5#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#filterCharacter#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test7#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test8#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#test9#0;class#StreamStudy#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStreamaAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java">
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
-                <element signature="method#test2#0;class#TestStreamaAPI#0" expanded="true" />
-                <element signature="method#test3#0;class#TestStreamaAPI#0" expanded="true" />
-                <element signature="method#test4#0;class#TestStreamaAPI#0" expanded="true" />
-                <element signature="method#test5#0;class#TestStreamaAPI#0" expanded="true" />
-                <element signature="method#test6#0;class#TestStreamaAPI#0" expanded="true" />
+                <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStreamAPI2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java">
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1303">
-              <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="62" />
-              <folding>
-                <element signature="method#test2#0;class#TestStreamAPI2#0" expanded="true" />
-                <element signature="method#test3#0;class#TestStreamAPI2#0" expanded="true" />
-                <element signature="method#test4#0;class#TestStreamAPI2#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="8028">
+              <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStreamAPI1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java">
+      <file leaf-file-name="BiFunction.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/BiFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="1044">
+              <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestTransaction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="133" column="44" lean-forward="false" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="44" />
               <folding>
-                <element signature="method#test1#0;class#TestStreamAPI1#0" expanded="true" />
-                <element signature="method#filterCharacter#0;class#TestStreamAPI1#0" expanded="true" />
+                <element signature="method#before#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test1#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test2#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test3#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test4#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#filterCharacter#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test5#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test6#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#test7#0;class#TestTransaction#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -322,6 +113,7 @@
       <find>Status</find>
       <find>sum</find>
       <find>FUnction</find>
+      <find>reduce(</find>
     </findStrings>
     <replaceStrings>
       <replace>Employee。</replace>
@@ -355,10 +147,7 @@
         <option value="$PROJECT_DIR$/JAVA_BCXX/src/JAVA_DATA_STRUCTURE/study/tree/SearchBinaryTree.java" />
         <option value="$PROJECT_DIR$/JAVA_BCXX/src/zlk/test/HttpRequest/Zhongten/Index.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda3.java" />
-        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" />
-        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/LamdaStudy.java" />
-        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyFun.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/MyFunction.java" />
@@ -366,6 +155,10 @@
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/AbTest.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/LambdaStudy.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestStreamAPI.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" />
       </list>
     </option>
@@ -1018,51 +811,11 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaGadRoad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaGadRoad" type="462c0819:PsiDirectoryNode" />
-              <item name="javaNewFeature" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaGadRoad" type="462c0819:PsiDirectoryNode" />
-              <item name="javaNewFeature" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaGadRoad" type="462c0819:PsiDirectoryNode" />
-              <item name="javaNewFeature" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="version8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaGadRoad" type="462c0819:PsiDirectoryNode" />
-              <item name="javaNewFeature" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="version8" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaGadRoad" type="462c0819:PsiDirectoryNode" />
-              <item name="javaNewFeature" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="version8" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="excr2" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -1102,10 +855,20 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1140,32 +903,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamStudy.test1">
+  <component name="RunManager" selected="JUnit.StreamStudy.test9">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="zlk.test.HttpRequest.Zhongten.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="zlk.test.HttpRequest.Zhongten.Index" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="javaGadRoad" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1181,82 +925,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="LambdaStudy.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="version8.atguigu.exer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaNewFeature" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.exer" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.exer.LambdaStudy" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="LambdaStudy.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="version8.atguigu.exer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaNewFeature" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.exer" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.exer.LambdaStudy" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="LambdaStudy.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="version8.atguigu.exer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaNewFeature" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.exer" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.exer.LambdaStudy" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StreamStudy.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamStudy.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="version8.atguigu.excr2.*" />
@@ -1268,7 +937,107 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
       <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StreamStudy.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaNewFeature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StreamStudy.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaNewFeature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StreamStudy.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaNewFeature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestTransaction.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="javaNewFeature" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.TestTransaction" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1353,19 +1122,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.55" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Index" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LambdaStudy.test1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LambdaStudy.test2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LambdaStudy.test3" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.StreamStudy.test1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StreamStudy.test6" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StreamStudy.test7" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestTransaction.test6" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StreamStudy.test8" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.StreamStudy.test9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StreamStudy.test1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LambdaStudy.test3" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LambdaStudy.test2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LambdaStudy.test1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Index" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StreamStudy.test9" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StreamStudy.test8" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestTransaction.test6" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StreamStudy.test7" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StreamStudy.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -1394,7 +1163,8 @@
       <workItem from="1592539972612" duration="7366000" />
       <workItem from="1592629369147" duration="846000" />
       <workItem from="1592730880304" duration="2556000" />
-      <workItem from="1592790274423" duration="9016000" />
+      <workItem from="1592790274423" duration="14342000" />
+      <workItem from="1592823969166" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="idea github推送测试">
       <created>1592453812879</created>
@@ -1417,43 +1187,50 @@
       <option name="project" value="LOCAL" />
       <updated>1592743936695</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jvm文档推送">
+      <created>1592816658880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592816658881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LambdaDome_Test1 - 2020.06.17 at 17h 40m 45s.xml">
-      <configuration name="LambdaDome.Test1" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test5 - 2020.06.22 at 18h 43m 04s.xml">
+      <configuration name="StreamStudy.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaDome_Test1 - 2020.06.17 at 17h 42m 56s.xml">
-      <configuration name="LambdaDome.Test1" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 45m 22s.xml">
+      <configuration name="StreamStudy.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaDome_Test1 - 2020.06.18 at 12h 12m 38s.xml">
-      <configuration name="LambdaDome.Test1" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 54m 02s.xml">
+      <configuration name="StreamStudy.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaStudy_test1 - 2020.06.22 at 11h 01m 19s.xml">
-      <configuration name="LambdaStudy.test1" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 55m 15s.xml">
+      <configuration name="StreamStudy.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaStudy_test1 - 2020.06.22 at 11h 02m 06s.xml">
-      <configuration name="LambdaStudy.test1" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 55m 35s.xml">
+      <configuration name="StreamStudy.test6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaStudy_test2 - 2020.06.22 at 11h 24m 19s.xml">
-      <configuration name="LambdaStudy.test2" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test7 - 2020.06.22 at 19h 01m 14s.xml">
+      <configuration name="StreamStudy.test7" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaStudy_test2 - 2020.06.22 at 11h 26m 09s.xml">
-      <configuration name="LambdaStudy.test2" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test8 - 2020.06.22 at 19h 04m 08s.xml">
+      <configuration name="StreamStudy.test8" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LambdaStudy_test3 - 2020.06.22 at 11h 34m 12s.xml">
-      <configuration name="LambdaStudy.test3" configurationId="JUnit" />
+    <history-entry file="StreamStudy_test9 - 2020.06.22 at 19h 05m 43s.xml">
+      <configuration name="StreamStudy.test9" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamStudy_test1 - 2020.06.22 at 16h 54m 29s.xml">
-      <configuration name="StreamStudy.test1" configurationId="JUnit" />
+    <history-entry file="TestTransaction_test4 - 2020.06.22 at 18h 46m 58s.xml">
+      <configuration name="TestTransaction.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamStudy_test1 - 2020.06.22 at 16h 55m 05s.xml">
-      <configuration name="StreamStudy.test1" configurationId="JUnit" />
+    <history-entry file="TestTransaction_test4 - 2020.06.22 at 18h 54m 41s.xml">
+      <configuration name="TestTransaction.test4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44083000" />
+    <option name="totallyTimeSpent" value="49425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1546" extended-state="6" />
@@ -1467,33 +1244,33 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.49353275" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29653504" sideWeight="0.7259499" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.4983832" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09256265" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46333602" sideWeight="0.7259499" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09256265" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.4983832" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36176232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25626516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.49353275" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1523,20 +1300,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JVM/src/com/zlk/jvm/OOMTest/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JVM/src/com/zlk/jvm/OOMTest/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -1668,14 +1431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="123" column="16" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestMethodRef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -1688,7 +1443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,7 +1450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1706,31 +1459,6 @@
           <caret line="173" column="51" lean-forward="false" selection-start-line="173" selection-start-column="51" selection-end-line="173" selection-end-column="51" />
           <folding>
             <element signature="method#sort#1;class#Collections#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="147" column="45" lean-forward="false" selection-start-line="147" selection-start-column="45" selection-end-line="147" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-          <folding>
-            <marker date="1592794775314" expanded="false" signature="939:1297" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="1701:2259" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="2289:3185" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="3221:3371" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="3409:3728" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="3764:3919" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="3953:4098" ph="{...}" />
-            <marker date="1592794775314" expanded="false" signature="4128:4283" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1745,22 +1473,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestDefaultInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/SubClass.java" />
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestDefaultInterface.java" />
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -1799,7 +1513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1807,7 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1815,7 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1831,14 +1542,6 @@
             <element signature="method#test3#0;class#TestLambda#0" expanded="false" />
             <element signature="method#op#0;class#TestLambda#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1860,28 +1563,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Trader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="78" column="4" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
           <folding>
-            <element signature="method#test1#0;class#TestLambda3#0" expanded="true" />
+            <element signature="method#test1#0;class#TestLambda3#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1890,67 +1577,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestStreamAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test1#0;class#TestStreamAPI#0" expanded="true" />
-            <element signature="method#test2#0;class#TestStreamAPI#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="90" column="48" lean-forward="true" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-          <folding>
-            <element signature="method#before#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test1#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test2#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test3#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test4#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test5#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test6#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test7#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test8#0;class#TestTransaction#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test1#0;class#StreamStudy#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="50" column="62" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="62" />
-          <folding>
-            <element signature="method#test2#0;class#TestStreamAPI2#0" expanded="true" />
-            <element signature="method#test3#0;class#TestStreamAPI2#0" expanded="true" />
-            <element signature="method#test4#0;class#TestStreamAPI2#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="565">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
           <folding>
             <element signature="method#test1#0;class#TestStreamAPI1#0" expanded="true" />
             <element signature="method#filterCharacter#0;class#TestStreamAPI1#0" expanded="true" />
@@ -1960,14 +1593,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="-1908">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
+            <element signature="method#test1#0;class#TestStreamaAPI#0" expanded="true" />
             <element signature="method#test2#0;class#TestStreamaAPI#0" expanded="true" />
             <element signature="method#test3#0;class#TestStreamaAPI#0" expanded="true" />
             <element signature="method#test4#0;class#TestStreamaAPI#0" expanded="true" />
             <element signature="method#test5#0;class#TestStreamaAPI#0" expanded="true" />
             <element signature="method#test6#0;class#TestStreamaAPI#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="124" column="14" lean-forward="false" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+          <folding>
+            <element signature="method#test1#0;class#TestStreamAPI2#0" expanded="false" />
+            <element signature="method#test2#0;class#TestStreamAPI2#0" expanded="false" />
+            <element signature="method#test3#0;class#TestStreamAPI2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test2#0;class#TestStreamAPI3#0" expanded="true" />
+            <element signature="method#test3#0;class#TestStreamAPI3#0" expanded="true" />
+            <element signature="method#test4#0;class#TestStreamAPI3#0" expanded="true" />
+            <element signature="method#test5#0;class#TestStreamAPI3#0" expanded="true" />
+            <element signature="method#test6#0;class#TestStreamAPI3#0" expanded="true" />
+            <marker date="1592820644056" expanded="false" signature="4036:4476" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestStreamAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="method#test1#0;class#TestStreamAPI#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Trader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="method#Trader#1;class#Trader#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8028">
+          <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3852">
+          <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#test1#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test2#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#before#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test3#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test4#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test5#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#filterCharacter#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test7#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test8#0;class#StreamStudy#0" expanded="true" />
+            <element signature="method#test9#0;class#StreamStudy#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="133" column="44" lean-forward="false" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="44" />
+          <folding>
+            <element signature="method#before#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test1#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test2#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test3#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test4#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#filterCharacter#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test5#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test6#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#test7#0;class#TestTransaction#0" expanded="true" />
           </folding>
         </state>
       </provider>

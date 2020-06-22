@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import org.junit.Test;
 
 /*
- * 一、 Stream 的操作步骤
+ * 一、 Stream 的操作步骤  之中间操作 map 与sort
  * 
  * 1. 创建 Stream
  * 
@@ -31,7 +31,8 @@ public class TestStreamAPI1 {
 	//2. 中间操作
 	/*
 		映射
-		map——接收 Lambda ， 将元素转换成其他形式或提取信息。接收一个函数作为参数，该函数会被应用到每个元素上，并将其映射成一个新的元素。
+		map——接收 Lambda ， 将元素转换成其他形式或提取信息。接收一个函数作为参数，
+		     该函数会被应用到每个元素上，并将其映射成一个新的元素。
 		flatMap——接收一个函数作为参数，将流中的每个值都换成另一个流，然后把所有流连接成一个流
 	 */
 	@Test
