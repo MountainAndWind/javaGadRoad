@@ -21,7 +21,7 @@ import org.junit.Test;
  * 
  * Function<T, R> : 函数型接口
  * 		R apply(T t);
- * 
+ *
  * Predicate<T> : 断言型接口
  * 		boolean test(T t);
  * 

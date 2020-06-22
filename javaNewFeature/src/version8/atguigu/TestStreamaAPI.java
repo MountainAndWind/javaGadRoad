@@ -42,7 +42,7 @@ public class TestStreamaAPI {
 		//生成
 		Stream<Double> stream4 = Stream.generate(Math::random).limit(2);
 		stream4.forEach(System.out::println);
-		
+
 	}
 	
 	//2. 中间操作
