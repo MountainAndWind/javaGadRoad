@@ -2,14 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5e70a6-d78a-4525-91e4-c8100d6ee28e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/SubClass.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/JAVA_BCXX" afterPath="$PROJECT_DIR$/JAVA_BCXX" />
-      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI1.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI1.class" />
-      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/StreamStudy.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/excr2/StreamStudy.class" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" />
-      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/DESUtil.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/DESUtil.class" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MethodTest.class" afterPath="$PROJECT_DIR$/JVM/out/production/javaGadRoad/com/neusoft/talentbase/webservice/mainDataInterface/service/MethodTest.class" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/DateFormatThreadLocal$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/DateFormatThreadLocal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/ForkJoinCalculate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Godness.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/Man.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyClass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyFun.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/MyInterface.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/NewMan.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestForkJoin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda1$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda1$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda1$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda2$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLambda3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestLocalDateTime.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestOptional.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestSimpleDateFormat$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestSimpleDateFormat.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamAPI2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/JVM/out/production/javaNewFeature/version8/atguigu/TestStreamaAPI.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/DateFormatThreadLocal.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/DateFormatThreadLocal.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/ForkJoinCalculate.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/ForkJoinCalculate.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Godness.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/Godness.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Man.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/Man.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyClass.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyClass.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyFun.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyFun.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyInterface.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyInterface.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/NewMan.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/NewMan.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestForkJoin.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/TestForkJoin.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda1.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda1.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda2.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda2.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda3.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda3.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLocalDateTime.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestLocalDateTime.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestOptional.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/TestOptional.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestSimpleDateFormat.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestSimpleDateFormat.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI1.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI2.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI3.java" />
+      <change beforePath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java" afterPath="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamaAPI.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,76 +63,122 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="StreamStudy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java">
+      <file leaf-file-name="SubClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/SubClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3852">
-              <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
+            <state relative-caret-position="108">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#test1#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test2#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#before#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test3#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test4#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test5#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#filterCharacter#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test7#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test8#0;class#StreamStudy#0" expanded="true" />
-                <element signature="method#test9#0;class#StreamStudy#0" expanded="true" />
+                <element signature="method#getName#0;class#SubClass#0" expanded="true" />
+                <element signature="method#getValue#0;class#SubClass#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java">
+      <file leaf-file-name="MyInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="324">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+                <element signature="method#getName#0;class#MyInterface#0" expanded="true" />
+                <element signature="method#show#0;class#MyInterface#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/stream/Stream.java">
+      <file leaf-file-name="DateFormatThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/DateFormatThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8028">
-              <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+            <state relative-caret-position="468">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="method#convert#0;class#DateFormatThreadLocal#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLocalDateTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestLocalDateTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="method#test6#0;class#TestLocalDateTime#0" expanded="true" />
+                <element signature="method#test5#0;class#TestLocalDateTime#0" expanded="true" />
+                <element signature="method#test4#0;class#TestLocalDateTime#0" expanded="true" />
+                <element signature="method#test3#0;class#TestLocalDateTime#0" expanded="true" />
+                <element signature="method#test2#0;class#TestLocalDateTime#0" expanded="true" />
+                <element signature="method#test1#0;class#TestLocalDateTime#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestForkJoin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/TestForkJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding>
+                <element signature="method#test1#0;class#TestForkJoin#0" expanded="true" />
+                <element signature="method#test3#0;class#TestForkJoin#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MethodTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/MethodTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BiFunction.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/BiFunction.java">
+      <file leaf-file-name="DESUtil.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/DESUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="339">
+              <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTransaction.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestTransaction.java">
+      <file leaf-file-name="Duration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/time/Duration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="133" column="44" lean-forward="false" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="44" />
+            <state relative-caret-position="10368">
+              <caret line="470" column="27" lean-forward="false" selection-start-line="470" selection-start-column="27" selection-end-line="470" selection-end-column="27" />
               <folding>
-                <element signature="method#before#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test1#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test2#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test3#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test4#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#filterCharacter#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test5#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test6#0;class#TestTransaction#0" expanded="true" />
-                <element signature="method#test7#0;class#TestTransaction#0" expanded="true" />
+                <element signature="method#between#0;class#Duration#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Instant.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/time/Instant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4140">
+              <caret line="206" column="19" lean-forward="false" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSimpleDateFormat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestSimpleDateFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2052">
+              <caret line="67" column="72" lean-forward="false" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +246,22 @@
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/Transaction.java" />
         <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/ForkJoinCalculate.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/TestForkJoin.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/TestOptional.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda3.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI3.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/Godness.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/NewMan.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyClass.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyFun.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/SubClass.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyInterface.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/DateFormatThreadLocal.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestSimpleDateFormat.java" />
+        <option value="$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestLocalDateTime.java" />
+        <option value="$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/MethodTest.java" />
+        <option value="$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/DESUtil.java" />
       </list>
     </option>
   </component>
@@ -810,8 +912,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -844,6 +947,14 @@
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -853,22 +964,12 @@
               <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaGadRoad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -884,11 +985,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workplace\javaGadRoad\javaNewFeature\src\version8\atguigu\interfaceMethod" />
+      <recent name="E:\workplace\javaGadRoad\javaNewFeature\src\version8\atguigu\parallelFlow" />
       <recent name="E:\workplace\javaGadRoad\javaNewFeature\src\version8\atguigu\excr2" />
       <recent name="E:\workplace\javaGadRoad\javaNewFeature\src\version8\atguigu\exer" />
       <recent name="E:\workplace\javaGadRoad\javaNewFeature\src\version8\atguigu" />
-      <recent name="E:\workplace\javaGadRoad\JVM\src\文档笔记" />
-      <recent name="E:\workplace\persional\javaGadRoad\javaNewFeature\src\version8\atguigu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -903,13 +1004,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamStudy.test9">
+  <component name="RunManager" selected="Application.MethodTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="MethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.neusoft.talentbase.webservice.mainDataInterface.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.neusoft.talentbase.webservice.mainDataInterface.service.MethodTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="javaGadRoad" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -925,19 +1045,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="StreamStudy.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLocalDateTime.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="PATTERN" value="version8.atguigu.newDateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="javaNewFeature" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.newDateTime" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.newDateTime.TestLocalDateTime" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -950,19 +1070,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StreamStudy.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLocalDateTime.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="PATTERN" value="version8.atguigu.newDateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="javaNewFeature" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
-      <option name="METHOD_NAME" value="test7" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.newDateTime" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.newDateTime.TestLocalDateTime" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -975,19 +1095,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StreamStudy.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLocalDateTime.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="PATTERN" value="version8.atguigu.newDateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="javaNewFeature" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
-      <option name="METHOD_NAME" value="test8" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.newDateTime" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.newDateTime.TestLocalDateTime" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1000,44 +1120,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StreamStudy.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLocalDateTime.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="version8.atguigu.excr2.*" />
+          <option name="PATTERN" value="version8.atguigu.newDateTime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="javaNewFeature" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.StreamStudy" />
-      <option name="METHOD_NAME" value="test9" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="TestTransaction.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="version8.atguigu.excr2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="javaNewFeature" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="version8.atguigu.excr2" />
-      <option name="MAIN_CLASS_NAME" value="version8.atguigu.excr2.TestTransaction" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="version8.atguigu.newDateTime" />
+      <option name="MAIN_CLASS_NAME" value="version8.atguigu.newDateTime.TestLocalDateTime" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1122,19 +1217,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.55" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StreamStudy.test6" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StreamStudy.test7" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestTransaction.test6" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StreamStudy.test8" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.StreamStudy.test9" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test3" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test4" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test5" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MethodTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StreamStudy.test9" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StreamStudy.test8" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestTransaction.test6" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StreamStudy.test7" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StreamStudy.test6" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MethodTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test5" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test4" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestLocalDateTime.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -1164,7 +1259,12 @@
       <workItem from="1592629369147" duration="846000" />
       <workItem from="1592730880304" duration="2556000" />
       <workItem from="1592790274423" duration="14342000" />
-      <workItem from="1592823969166" duration="16000" />
+      <workItem from="1592823969166" duration="111000" />
+      <workItem from="1592878978851" duration="9061000" />
+      <workItem from="1592977144523" duration="521000" />
+      <workItem from="1592990689143" duration="1670000" />
+      <workItem from="1593264480395" duration="622000" />
+      <workItem from="1593309049711" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="idea github推送测试">
       <created>1592453812879</created>
@@ -1194,33 +1294,40 @@
       <option name="project" value="LOCAL" />
       <updated>1592816658881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java8 练习">
+      <created>1592824017729</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592824017729</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamStudy_test5 - 2020.06.22 at 18h 43m 04s.xml">
-      <configuration name="StreamStudy.test5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 45m 22s.xml">
-      <configuration name="StreamStudy.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 54m 02s.xml">
-      <configuration name="StreamStudy.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 55m 15s.xml">
-      <configuration name="StreamStudy.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamStudy_test6 - 2020.06.22 at 18h 55m 35s.xml">
-      <configuration name="StreamStudy.test6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamStudy_test7 - 2020.06.22 at 19h 01m 14s.xml">
-      <configuration name="StreamStudy.test7" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StreamStudy_test8 - 2020.06.22 at 19h 04m 08s.xml">
       <configuration name="StreamStudy.test8" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StreamStudy_test9 - 2020.06.22 at 19h 05m 43s.xml">
       <configuration name="StreamStudy.test9" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLocalDateTime_test1 - 2020.06.23 at 15h 20m 44s.xml">
+      <configuration name="TestLocalDateTime.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLocalDateTime_test2 - 2020.06.23 at 15h 22m 43s.xml">
+      <configuration name="TestLocalDateTime.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLocalDateTime_test2 - 2020.06.23 at 15h 26m 24s.xml">
+      <configuration name="TestLocalDateTime.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLocalDateTime_test3 - 2020.06.23 at 15h 31m 04s.xml">
+      <configuration name="TestLocalDateTime.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLocalDateTime_test4 - 2020.06.23 at 15h 34m 18s.xml">
+      <configuration name="TestLocalDateTime.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestLocalDateTime_test5 - 2020.06.23 at 16h 10m 14s.xml">
+      <configuration name="TestLocalDateTime.test5" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestTransaction_test4 - 2020.06.22 at 18h 46m 58s.xml">
       <configuration name="TestTransaction.test4" configurationId="JUnit" />
@@ -1230,7 +1337,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49425000" />
+    <option name="totallyTimeSpent" value="62023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2586" height="1546" extended-state="6" />
@@ -1238,14 +1345,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46333602" sideWeight="0.27405012" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764706" sideWeight="0.27647534" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1254,12 +1361,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29653504" sideWeight="0.7259499" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.4983832" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09256265" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="leetcode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1083266" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29895246" sideWeight="0.72352463" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957292" sideWeight="0.4983832" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25626516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1293,149 +1400,18 @@
     <MESSAGE value="idea初始化&#10;" />
     <MESSAGE value="idea github推送测试" />
     <MESSAGE value="jvm文档推送" />
-    <option name="LAST_COMMIT_MESSAGE" value="jvm文档推送" />
+    <MESSAGE value="java8 练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="java8 练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="226" column="44" lean-forward="true" selection-start-line="226" selection-start-column="44" selection-end-line="226" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/index.kt" />
-    <entry file="file://$PROJECT_DIR$/JVM/src/com/zlk/jvm/OOMTest/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="1020" column="80" lean-forward="false" selection-start-line="1020" selection-start-column="46" selection-end-line="1020" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/简介">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/HashMap8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/LambdaDome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/GitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/MDMWebServiceImplService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/JAVA_DATA_STRUCTURE/study/tree/SearchBinaryTreeByMy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/zlk/test/ObjectEquals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/JAVA_DATA_STRUCTURE/study/tree/SearchBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/IO_18/ZipIoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-695">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/IO_18/P545.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/zlk/test/HttpRequest/Zhongten/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding>
-            <element signature="method#sum#0;class#Double#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestMethodRef.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="52" column="9" lean-forward="false" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1457,58 +1433,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="173" column="51" lean-forward="false" selection-start-line="173" selection-start-column="51" selection-end-line="173" selection-end-column="51" />
-          <folding>
-            <element signature="method#sort#1;class#Collections#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyFun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="method#getName#0;class#MyFun#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/SubClass.java" />
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestDefaultInterface.java" />
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="method#test6#0;class#TestLambda2#0" expanded="false" />
-            <element signature="method#operation#0;class#TestLambda2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="143" column="42" lean-forward="true" selection-start-line="143" selection-start-column="42" selection-end-line="143" selection-end-column="42" />
-          <folding>
-            <element signature="method#filterEmployeeAge#0;class#TestLambda1#0" expanded="false" />
-            <element signature="method#test3#0;class#TestLambda1#0" expanded="false" />
-            <element signature="method#filterEmployeeSalary#0;class#TestLambda1#0" expanded="false" />
-            <element signature="method#filterEmployee#0;class#TestLambda1#0" expanded="false" />
-            <element signature="method#test4#0;class#TestLambda1#0" expanded="false" />
-            <element signature="method#test6#0;class#TestLambda1#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/DateFormatThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/exer/MyFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1534,14 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#test1#0;class#TestLambda#0" expanded="false" />
-            <element signature="method#test2#0;class#TestLambda#0" expanded="false" />
-            <element signature="method#strHandler#0;class#TestLambda#0" expanded="false" />
-            <element signature="method#test3#0;class#TestLambda#0" expanded="false" />
-            <element signature="method#op#0;class#TestLambda#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1554,22 +1475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
           <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#test1#0;class#LambdaStudy#0" expanded="false" />
-            <element signature="method#test2#0;class#LambdaStudy#0" expanded="false" />
-            <element signature="method#test3#0;class#LambdaStudy#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestLambda3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="78" column="4" lean-forward="true" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-          <folding>
-            <element signature="method#test1#0;class#TestLambda3#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1580,65 +1485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
-          <folding>
-            <element signature="method#test1#0;class#TestStreamAPI1#0" expanded="true" />
-            <element signature="method#filterCharacter#0;class#TestStreamAPI1#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamaAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1908">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="method#test1#0;class#TestStreamaAPI#0" expanded="true" />
-            <element signature="method#test2#0;class#TestStreamaAPI#0" expanded="true" />
-            <element signature="method#test3#0;class#TestStreamaAPI#0" expanded="true" />
-            <element signature="method#test4#0;class#TestStreamaAPI#0" expanded="true" />
-            <element signature="method#test5#0;class#TestStreamaAPI#0" expanded="true" />
-            <element signature="method#test6#0;class#TestStreamaAPI#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="124" column="14" lean-forward="false" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
-          <folding>
-            <element signature="method#test1#0;class#TestStreamAPI2#0" expanded="false" />
-            <element signature="method#test2#0;class#TestStreamAPI2#0" expanded="false" />
-            <element signature="method#test3#0;class#TestStreamAPI2#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/TestStreamAPI3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test2#0;class#TestStreamAPI3#0" expanded="true" />
-            <element signature="method#test3#0;class#TestStreamAPI3#0" expanded="true" />
-            <element signature="method#test4#0;class#TestStreamAPI3#0" expanded="true" />
-            <element signature="method#test5#0;class#TestStreamAPI3#0" expanded="true" />
-            <element signature="method#test6#0;class#TestStreamAPI3#0" expanded="true" />
-            <marker date="1592820644056" expanded="false" signature="4036:4476" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1646,9 +1496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="45" column="40" lean-forward="true" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
-          <folding>
-            <element signature="method#test1#0;class#TestStreamAPI#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1656,7 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1664,9 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="method#Trader#1;class#Trader#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1674,7 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
           <caret line="52" column="6" lean-forward="false" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1682,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8028">
           <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,9 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1700,45 +1538,240 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3852">
-          <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#test1#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test2#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#before#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test3#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test4#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test5#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#filterCharacter#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test7#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test8#0;class#StreamStudy#0" expanded="true" />
-            <element signature="method#test9#0;class#StreamStudy#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/TestTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="133" column="44" lean-forward="false" selection-start-line="133" selection-start-column="37" selection-end-line="133" selection-end-column="44" />
+        <state relative-caret-position="366">
+          <caret line="122" column="53" lean-forward="false" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/nc/itf/pubapp/service/IProjectService/ActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/excr2/StreamStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="140" column="53" lean-forward="true" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="93" column="27" lean-forward="true" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/ForkJoinCalculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/lambda/TestLambda3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamaAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/stream/TestStreamAPI3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/TestOptional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/Godness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod.java" />
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/optional/NewMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/MyPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/SubClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="method#before#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test1#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test2#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test3#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test4#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#filterCharacter#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test5#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test6#0;class#TestTransaction#0" expanded="true" />
-            <element signature="method#test7#0;class#TestTransaction#0" expanded="true" />
+            <element signature="method#getName#0;class#SubClass#0" expanded="true" />
+            <element signature="method#getValue#0;class#SubClass#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/interfaceMethod/MyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="method#getName#0;class#MyInterface#0" expanded="true" />
+            <element signature="method#show#0;class#MyInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/DateFormatThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#convert#0;class#DateFormatThreadLocal#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestLocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="method#test6#0;class#TestLocalDateTime#0" expanded="true" />
+            <element signature="method#test5#0;class#TestLocalDateTime#0" expanded="true" />
+            <element signature="method#test4#0;class#TestLocalDateTime#0" expanded="true" />
+            <element signature="method#test3#0;class#TestLocalDateTime#0" expanded="true" />
+            <element signature="method#test2#0;class#TestLocalDateTime#0" expanded="true" />
+            <element signature="method#test1#0;class#TestLocalDateTime#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/parallelFlow/TestForkJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="method#test1#0;class#TestForkJoin#0" expanded="true" />
+            <element signature="method#test3#0;class#TestForkJoin#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/MethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10368">
+          <caret line="470" column="27" lean-forward="false" selection-start-line="470" selection-start-column="27" selection-end-line="470" selection-end-column="27" />
+          <folding>
+            <element signature="method#between#0;class#Duration#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="206" column="19" lean-forward="false" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNewFeature/src/version8/atguigu/newDateTime/TestSimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="67" column="72" lean-forward="false" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JAVA_BCXX/src/com/neusoft/talentbase/webservice/mainDataInterface/service/DESUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="65" column="64" lean-forward="true" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
