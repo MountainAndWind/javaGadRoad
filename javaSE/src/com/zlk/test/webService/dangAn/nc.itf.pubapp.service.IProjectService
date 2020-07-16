@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" jaxb:version="2.0" targetNamespace="http://service.pubapp.itf.nc/IProjectService" xmlns:jaxws="http://java.sun.com/xml/ns/jaxws" xmlns:ns0="http://service.pubapp.itf.nc/IProjectService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="unqualified" elementFormDefault="unqualified" jaxb:version="2.0" targetNamespace="http://service.pubapp.itf.nc/IProjectService" xmlns:ns="http://service.pubapp.itf.nc/IProjectService">
+	<xsd:annotation>
+    	<xsd:appinfo>
+   			<jaxb:schemaBindings>
+    			<jaxb:package name="nc.itf.pubapp.service" />
+    		</jaxb:schemaBindings>
+   		</xsd:appinfo>
+   	</xsd:annotation>
+	<xsd:element name="stordocSave">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element minOccurs="0" name="string" nillable="true" type="xsd:string" />
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+	<xsd:element name="stordocSaveResponse">
+         <xsd:complexType>
+            <xsd:sequence>
+				<xsd:element minOccurs="0" name="return" nillable="true" type="xsd:string" />
+             </xsd:sequence>  
+         </xsd:complexType>
+     </xsd:element>
+   </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="stordocSaveResponse">
+    <wsdl:part element="ns0:stordocSaveResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="stordocSaveRequest">
+    <wsdl:part element="ns0:stordocSave" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="IProjectServicePortType">
+    <wsdl:operation name="stordocSave">
+      <wsdl:input message="ns0:stordocSaveRequest" wsaw:Action="urn:stordocSave">
+    </wsdl:input>
+      <wsdl:output message="ns0:stordocSaveResponse" wsaw:Action="urn:stordocSaveResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IProjectServiceSOAP11Binding" type="ns0:IProjectServicePortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="stordocSave">
+      <soap:operation soapAction="urn:stordocSave" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IProjectService">
+    <wsdl:port binding="ns0:IProjectServiceSOAP11Binding" name="IProjectServiceSOAP11port_http">
+      <soap:address location="http://47.103.127.60:8888/uapws/service/nc.itf.pubapp.service.IProjectService" />
+    </wsdl:port>
+  </wsdl:service>
+    <jaxws:bindings>
+	<jaxws:package name="nc.itf.pubapp.service" />
+</jaxws:bindings>
+</wsdl:definitions>
