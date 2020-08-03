@@ -1,4 +1,4 @@
-package dataStructure.Graph;
+package dataStructure.Graph.dn;
 
 public class DnjavaDijstra {
 	private final static int MAXVEX = 9;
@@ -15,9 +15,9 @@ public class DnjavaDijstra {
 		for (int v = 0; v < graph.getVertexSize(); v++) {
 			shortTablePath[v] = graph.getMatrix()[0][v];// 获取v0这一行的权值数组
 		}
-		shortTablePath[0] = 0;//表示从0个位置找起，因为shortTablePath是获取v0到vi的权值数组
+		shortTablePath[0] = 0;
 		isgetPath[0] = true;
-		for (int v = 1; v < graph.getVertexSize(); v++) {//此处只起遍历作用
+		for (int v = 1; v < graph.getVertexSize(); v++) {
 			min = MAXWEIGHT;
 			for (int w = 0; w < graph.getVertexSize(); w++) {
 				if (!isgetPath[w] && shortTablePath[w] < min) {

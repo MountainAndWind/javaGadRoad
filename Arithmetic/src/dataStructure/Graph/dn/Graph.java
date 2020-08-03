@@ -1,10 +1,10 @@
-package dataStructure.Graph;
+package dataStructure.Graph.dn;
 
 import java.util.LinkedList;
 
 public class Graph {
-	private int vertexSize;//é¡¶ç‚¹æ•°é‡
-
+	private int vertexSize;//¶¥µãÊıÁ¿
+	
 	public int getVertexSize() {
 		return vertexSize;
 	}
@@ -14,7 +14,7 @@ public class Graph {
 		this.vertexSize = vertexSize;
 	}
 
-	private int [] vertexs;//é¡¶ç‚¹æ•°ç»„
+	private int [] vertexs;//¶¥µãÊı×é
 	private int[][]  matrix;
 	public int[][] getMatrix() {
 		return matrix;
@@ -36,13 +36,9 @@ public class Graph {
 		}
 		isVisited = new boolean[vertextSize];
 	}
-
-	public static int getMaxWeight() {
-		return MAX_WEIGHT;
-	}
-
+	
 	/**
-	 * åˆ›å»ºå›¾çš„è¿‡ç¨‹
+	 * ´´½¨Í¼µÄ¹ı³Ì
 	 */
 	public void createGraph(){
 		int [] a1 = new int[]{0,1,5,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT};
@@ -54,7 +50,7 @@ public class Graph {
 		int [] a7 = new int[]{MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,3,6,MAX_WEIGHT,0,2,7};
 		int [] a8 = new int[]{MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,9,5,2,0,4};
 		int [] a9 = new int[]{MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,7,4,0};
-
+		
 		matrix[0] = a1;
 		matrix[1] = a2;
 		matrix[2] = a3;
@@ -65,9 +61,9 @@ public class Graph {
 		matrix[7] = a8;
 		matrix[8] = a9;
 	}
-
+	
 	/**
-	 * è·å–æŸä¸ªé¡¶ç‚¹çš„å‡ºåº¦
+	 * »ñÈ¡Ä³¸ö¶¥µãµÄ³ö¶È
 	 * @return
 	 */
 	public int getOutDegree(int index){
@@ -80,16 +76,16 @@ public class Graph {
 		}
 		return degree;
 	}
-
-
-
+	
+	
+	
 	/**
-	 * å…¥åº¦
+	 * Èë¶È
 	 * @return
 	 */
-
+	
 	/**
-	 * è·å–æŸä¸ªé¡¶ç‚¹çš„ç¬¬ä¸€ä¸ªé‚»æ¥ç‚¹
+	 * »ñÈ¡Ä³¸ö¶¥µãµÄµÚÒ»¸öÁÚ½Óµã
 	 */
 	public int getFirstNeighbor(int index){
 		for(int j = 0;j<vertexSize;j++){
@@ -99,11 +95,11 @@ public class Graph {
 		}
 		return -1;
 	}
-
+	
 	/**
-	 * æ ¹æ®å‰ä¸€ä¸ªé‚»æ¥ç‚¹çš„ä¸‹æ ‡æ¥å–å¾—ä¸‹ä¸€ä¸ªé‚»æ¥ç‚¹
-	 * @param v1è¡¨ç¤ºè¦æ‰¾çš„é¡¶ç‚¹
-	 * @param v2 è¡¨ç¤ºè¯¥é¡¶ç‚¹ç›¸å¯¹äºå“ªä¸ªé‚»æ¥ç‚¹å»è·å–ä¸‹ä¸€ä¸ªé‚»æ¥ç‚¹
+	 * ¸ù¾İÇ°Ò»¸öÁÚ½ÓµãµÄÏÂ±êÀ´È¡µÃÏÂÒ»¸öÁÚ½Óµã
+	 * @param v1±íÊ¾ÒªÕÒµÄ¶¥µã
+	 * @param v2 ±íÊ¾¸Ã¶¥µãÏà¶ÔÓÚÄÄ¸öÁÚ½ÓµãÈ¥»ñÈ¡ÏÂÒ»¸öÁÚ½Óµã
 	 */
 	public int getNextNeighbor(int v,int index){
 		for(int j = index+1;j<vertexSize;j++){
@@ -113,38 +109,38 @@ public class Graph {
 		}
 		return -1;
 	}
-
+	
 	/**
-	 * å›¾çš„æ·±åº¦ä¼˜å…ˆéå†ç®—æ³•
+	 * Í¼µÄÉî¶ÈÓÅÏÈ±éÀúËã·¨
 	 */
 	private void depthFirstSearch(int i){
 		isVisited[i] = true;
 		int w = getFirstNeighbor(i);//
 		while(w!=-1){
 			if(!isVisited[w]){
-				//éœ€è¦éå†è¯¥é¡¶ç‚¹
-				System.out.println("è®¿é—®åˆ°äº†ï¼š"+w+"é¡¶ç‚¹");
+				//ĞèÒª±éÀú¸Ã¶¥µã
+				System.out.println("·ÃÎÊµ½ÁË£º"+w+"¶¥µã");
 				depthFirstSearch(w);
 			}
-			w = getNextNeighbor(i, w);//ç¬¬ä¸€ä¸ªç›¸å¯¹äºwçš„é‚»æ¥ç‚¹
+			w = getNextNeighbor(i, w);//µÚÒ»¸öÏà¶ÔÓÚwµÄÁÚ½Óµã
 		}
 	}
-
+	
 	/**
-	 * å¯¹å¤–å…¬å¼€çš„æ·±åº¦ä¼˜å…ˆéå†
+	 * ¶ÔÍâ¹«¿ªµÄÉî¶ÈÓÅÏÈ±éÀú
 	 */
-
+	
 	public void depthFirstSearch(){
 		isVisited = new boolean[vertexSize];
 		for(int i = 0;i<vertexSize;i++){
 			if(!isVisited[i]){
-				System.out.println("è®¿é—®åˆ°äº†ï¼š"+i+"é¡¶ç‚¹");
+				System.out.println("·ÃÎÊµ½ÁË£º"+i+"¶¥µã");
 				depthFirstSearch(i);
 			}
 		}
 		isVisited = new boolean[vertexSize];
 	}
-
+	
 	public void broadFirstSearch(){
 		isVisited = new boolean[vertexSize];
 		for(int i =0;i<vertexSize;i++){
@@ -153,23 +149,23 @@ public class Graph {
 			}
 		}
 	}
-
+	
 	/**
-	 * å®ç°å¹¿åº¦ä¼˜å…ˆéå†
+	 * ÊµÏÖ¹ã¶ÈÓÅÏÈ±éÀú
 	 * @param i
 	 */
 	private void broadFirstSearch(int i) {
 		int u,w;
 		LinkedList<Integer> queue = new LinkedList<Integer>();
-		System.out.println("è®¿é—®åˆ°ï¼š"+i+"é¡¶ç‚¹");
+		System.out.println("·ÃÎÊµ½£º"+i+"¶¥µã");
 		isVisited[i] = true;
-		queue.add(i);//ç¬¬ä¸€æ¬¡æŠŠv0åŠ åˆ°é˜Ÿåˆ—
+		queue.add(i);//µÚÒ»´Î°Ñv0¼Óµ½¶ÓÁĞ
 		while(!queue.isEmpty()){
 			u = (Integer)(queue.removeFirst()).intValue();
 			w = getFirstNeighbor(u);
 			while(w!=-1){
 				if(!isVisited[w]){
-					System.out.println("è®¿é—®åˆ°äº†ï¼š"+w+"é¡¶ç‚¹");
+					System.out.println("·ÃÎÊµ½ÁË£º"+w+"¶¥µã");
 					isVisited[w] = true;
 					queue.add(w);
 				}
@@ -178,12 +174,12 @@ public class Graph {
 		}
 	}
 
-	/**
-	 * prim æ™®é‡Œå§†ç®—æ³•
-	 */
+/**
+ * prim ÆÕÀïÄ·Ëã·¨
+ */
 	public void prim(){
-		int [] lowcost = new int[vertexSize];//æœ€å°ä»£ä»·é¡¶ç‚¹æƒå€¼çš„æ•°ç»„,ä¸º0è¡¨ç¤ºå·²ç»è·å–æœ€å°æƒå€¼
-		int [] adjvex = new int[vertexSize];//æ”¾é¡¶ç‚¹æƒå€¼
+		int [] lowcost = new int[vertexSize];//×îĞ¡´ú¼Û¶¥µãÈ¨ÖµµÄÊı×é,Îª0±íÊ¾ÒÑ¾­»ñÈ¡×îĞ¡È¨Öµ
+		int [] adjvex = new int[vertexSize];//·Å¶¥µãÈ¨Öµ
 		int min,minId,sum = 0;
 		for(int i = 1;i<vertexSize;i++){
 			lowcost[i] = matrix[0][i];
@@ -197,7 +193,7 @@ public class Graph {
 					minId = j;
 				}
 			}
-			System.out.println("é¡¶ç‚¹ï¼š"+adjvex[minId]+"æƒå€¼ï¼š"+min);
+			System.out.println("¶¥µã£º"+adjvex[minId]+"È¨Öµ£º"+min);
 			sum+=min;
 			lowcost[minId] = 0;
 			for(int j = 1;j<vertexSize;j++){
@@ -207,23 +203,23 @@ public class Graph {
 				}
 			}
 		}
-		System.out.println("æœ€å°ç”Ÿæˆæ ‘æƒå€¼å’Œ:"+sum);
+		System.out.println("×îĞ¡Éú³ÉÊ÷È¨ÖµºÍ:"+sum);
 	}
-
+	
 	/**
-	 * å›¾çš„å¹¿åº¦ä¼˜å…ˆæœç´¢ç®—æ³•
+	 * Í¼µÄ¹ã¶ÈÓÅÏÈËÑË÷Ëã·¨
 	 */
-
+	
 	/**
-	 * è·å–ä¸¤ä¸ªé¡¶ç‚¹ä¹‹é—´çš„æƒå€¼
+	 * »ñÈ¡Á½¸ö¶¥µãÖ®¼äµÄÈ¨Öµ
 	 * @return
 	 */
 	public int getWeight(int v1,int v2){
 		int weight = matrix[v1][v2];
 		return weight == 0?0:(weight == MAX_WEIGHT?-1:weight);
 	}
-
-
+	
+	
 	public int[] getVertexs() {
 		return vertexs;
 	}
@@ -234,7 +230,7 @@ public class Graph {
 
 	public static void main(String [] args){
 		Graph graph = new Graph(9);
-
+		
 		int [] a1 = new int[]{0,10,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,11,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT};
 		int [] a2 = new int[]{10,0,18,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,16,MAX_WEIGHT,12};
 		int [] a3 = new int[]{MAX_WEIGHT,MAX_WEIGHT,0,22,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,8};
@@ -244,7 +240,7 @@ public class Graph {
 		int [] a7 = new int[]{MAX_WEIGHT,16,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,17,0,19,MAX_WEIGHT};
 		int [] a8 = new int[]{MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,16,7,MAX_WEIGHT,19,0,MAX_WEIGHT};
 		int [] a9 = new int[]{MAX_WEIGHT,12,8,21,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,MAX_WEIGHT,0};
-
+		
 		graph.matrix[0] = a1;
 		graph.matrix[1] = a2;
 		graph.matrix[2] = a3;
@@ -254,10 +250,10 @@ public class Graph {
 		graph.matrix[6] = a7;
 		graph.matrix[7] = a8;
 		graph.matrix[8] = a9;
-
+		
 //		int degree = graph.getOutDegree(4);
-//		System.out.println("voçš„å‡ºåº¦:"+degree);
-//		System.out.println("æƒå€¼ï¼š"+graph.getWeight(2,3));
+//		System.out.println("voµÄ³ö¶È:"+degree);
+//		System.out.println("È¨Öµ£º"+graph.getWeight(2,3));
 //		graph.depthFirstSearch();
 //		graph.broadFirstSearch();
 		graph.prim();
