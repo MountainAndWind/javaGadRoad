@@ -8,8 +8,6 @@ import java.util.LinkedList;
  * @time: 2020/7/29 21:35
  */
 public class CC {
-
-
     private boolean isVisited[];
 
     private int[] ids;
@@ -22,10 +20,11 @@ public class CC {
     public CC(GraphByLinkedList graph){
         isVisited = new boolean[graph.getV()];
         ids = new int[graph.getV()];
-        LinkedList[] adj = graph.getAdj();
         for (int i = 0; i < graph.getV(); i++) {
-            count++;
-            dfs(graph,i);
+            if(!isVisited[i]){
+                dfs(graph,i);
+                count++;
+            }
         }
     }
     private void dfs(GraphByLinkedList graph, int i) {

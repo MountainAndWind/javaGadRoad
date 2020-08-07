@@ -2,6 +2,7 @@ package dataStructure.Graph;
 
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 
 /**
@@ -14,7 +15,6 @@ public class Digraph {
 
     public static void main(String[] args) {
         Digraph digraph = new Digraph(13);
-
         digraph.initOrder();
        /*
         digraph.addEdge(0,5);
@@ -23,10 +23,19 @@ public class Digraph {
         digraph.addEdge(4,3);
         boolean cycle = digraph.isCycle(digraph);
         System.out.println(cycle);*/
-        DepthFirstOrder depthFirstOrder = new DepthFirstOrder(digraph);
+        /*DepthFirstOrder depthFirstOrder = new DepthFirstOrder(digraph);
         System.out.println(depthFirstOrder.getPre());
         System.out.println(depthFirstOrder.getPost());
-        System.out.println(depthFirstOrder.getResversePost());
+        Stack<Integer> resversePost = depthFirstOrder.getResversePost();
+        List<Integer> outList = new LinkedList<>();
+        while (!resversePost.isEmpty()){
+            outList.add(resversePost.pop());
+        }
+        System.out.println(outList);*/
+        Topological topological = new Topological(digraph);
+        //Stack<Integer> order = (Stack)topological.getOrder();
+        LinkedList<Integer> order = (LinkedList<Integer>) topological.topologicalByInDragee(digraph);
+        System.out.println(order);
     }
 
     private void initOrder() {
@@ -92,6 +101,49 @@ public class Digraph {
         return r;
     }
 
+    private boolean[] marked;
+    private int[] ids;//强连通分量的标识符
+    private int count;//强连通分量的数量
+
+    /**
+     * 计算强连通分量
+     * 传递性，自反性，对称性
+     */
+    public void KosaraJuScc(){
+        marked = new boolean[V];
+        DepthFirstOrder depthFirstOrder = new DepthFirstOrder(reverse());
+        Stack<Integer> resversePost = depthFirstOrder.getResversePost();
+        while (!resversePost.isEmpty()){
+            Integer pop = resversePost.pop();
+            if(!marked[pop]){
+                kosaraDfs(pop);
+                count++;
+            }
+        }
+    }
+
+    private void kosaraDfs(Integer pop) {
+        marked[pop] = true;
+        ids[pop] = count;
+        for (Integer integer : adj(pop)) {
+            if(!marked[integer]){
+                kosaraDfs(integer);
+            }
+        }
+    }
+
+    public boolean stronglyConnected(int w,int v){
+        return ids[w]==ids[v];
+    }
+
+
+    public int ids(int v){
+        return ids[v];
+    }
+
+    public int getCount(){
+        return count;
+    }
 
     /**
      * 多点可达性
@@ -170,6 +222,30 @@ public class Digraph {
 
     public void setAdj(LinkedList[] adj) {
         this.adj = adj;
+    }
+
+    /**
+     * 获取入度
+     * @param v
+     * @return
+     */
+    public int getIn(int v){
+        int count = 0;
+        for (int i = 0; i < adj.length; i++) {
+            if(i!=v){
+                LinkedList<Integer> list = adj[i];
+                for (Integer integer : list) {
+                    if(v==integer){
+                        count++;
+                    }
+                }
+            }
+        }
+        return count;
+    }
+
+    public int getOut(int v){
+        return adj[v].size();
     }
 
     public int getE() {

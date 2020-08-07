@@ -38,7 +38,11 @@ public class DnGraphTopologic {
 		adjList[11] =node11;
 		adjList[12] =node12;
 		adjList[13] =node13;
-		node0.firstEdge = new EdgeNode(11);node0.firstEdge.next = new EdgeNode(5);node0.firstEdge.next.next = new EdgeNode(4);
+
+		node0.firstEdge = new EdgeNode(11);
+		node0.firstEdge.next = new EdgeNode(5);
+		node0.firstEdge.next.next = new EdgeNode(4);
+
 		node1.firstEdge = new EdgeNode(8);node1.firstEdge.next = new EdgeNode(4);node1.firstEdge.next.next = new EdgeNode(2);
 		node2.firstEdge = new EdgeNode(9);node2.firstEdge.next = new EdgeNode(6);node2.firstEdge.next.next = new EdgeNode(5);
 		node3.firstEdge = new EdgeNode(13);node3.firstEdge.next = new EdgeNode(2);
