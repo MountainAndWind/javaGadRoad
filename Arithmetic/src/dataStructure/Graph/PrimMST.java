@@ -48,6 +48,7 @@ public class PrimMST {
         }
     }
 
+
     public static void main(String[] args) throws Exception {
         EdgeWeightedGraph  graph = new EdgeWeightedGraph(8);
         graph.createData();

@@ -1,7 +1,9 @@
 package dataStructure.Graph;
 
 
+import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Set;
 
 /**
  * @description:加权无向图
@@ -21,6 +23,16 @@ public class EdgeWeightedGraph {
         for (int i = 0; i <size ; i++) {
             adj[i] = new LinkedList<Edge>();
         }
+    }
+
+    public Set<Edge> Edgs(){
+        Set<Edge>  edgeSet = new HashSet<>();
+        for (LinkedList<Edge> edges : adj) {
+            for (Edge edge : edges) {
+                edgeSet.add(edge);
+            }
+        }
+        return edgeSet;
     }
 
 

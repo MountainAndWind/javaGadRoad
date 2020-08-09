@@ -47,6 +47,13 @@ public class LazyPrimMsT {
         return mst;
     }
 
+    public double weight(){
+        double weight =0 ;
+        for (EdgeWeightedGraph.Edge e:mst)
+            weight+=e.weight();
+        return weight;
+    }
+
     public static void main(String[] args) throws Exception {
         EdgeWeightedGraph graph = new EdgeWeightedGraph(8);
         graph.createData();
@@ -55,6 +62,7 @@ public class LazyPrimMsT {
         for (EdgeWeightedGraph.Edge edge : edges) {
             System.out.println(edge.either()+"----->"+edge.other(edge.either()));
         }
+        System.out.println(lazyPrimMsT.weight());
     }
 
 

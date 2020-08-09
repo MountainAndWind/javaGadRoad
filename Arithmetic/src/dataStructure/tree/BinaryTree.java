@@ -18,7 +18,7 @@ import java.util.LinkedList;
  * @time: 2020/3/20 18:39
  */
 public class BinaryTree {
-    private TreeNode root = null;
+    public TreeNode root = null;
 
     public BinaryTree() {
         root = new TreeNode(1, "A");
@@ -306,12 +306,12 @@ public class BinaryTree {
      * @author my
      *
      */
-    class TreeNode {
-        private int index;
-        private String data;
-        private TreeNode leftChild;
-        private TreeNode rightChild;
-        private int visited;
+    public class TreeNode {
+        public int index;
+        public String data;
+        public TreeNode leftChild;
+        public TreeNode rightChild;
+        public int visited;
 
         public TreeNode(int index, String data) {
             super();
