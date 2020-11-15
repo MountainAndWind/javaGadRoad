@@ -22,7 +22,7 @@ public class MDMWebServiceImplServiceLocator extends org.apache.axis.client.Serv
     }
 
     // Use to get a proxy class for MDMWebServiceImplPort
-    private String MDMWebServiceImplPort_address = "http://101.230.249.213:48080/service/MDMWebService";
+    private String MDMWebServiceImplPort_address = "http://ehr.chinawanxiang.com:10086/service/MDMWebService";
 
     public String getMDMWebServiceImplPortAddress() {
         return MDMWebServiceImplPort_address;

@@ -1,5 +1,7 @@
 package test.json;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 
 import com.alibaba.fastjson.JSONArray;
@@ -10,7 +12,15 @@ public class JosnTest {
 
 
     public static void main(String[] args) {
-        test1();
+        /*test1();*/
+        String str = "{\"code\":0,\"message\":\"成功\",\"data\":{\"verifyId\":\"acb21422-fc31-4c18-b57b-f0284a01b64a\"}}";
+        net.sf.json.JSONObject jsonObject = net.sf.json.JSONObject.fromObject(str);
+        Map map = new HashMap();
+        for(Iterator iter = jsonObject.keys(); iter.hasNext();){
+            String key = (String)iter.next();
+            map.put(key, jsonObject.get(key));
+        }
+        System.out.println(map.get("code"));
         //test3();
     }
 static void  test1(){

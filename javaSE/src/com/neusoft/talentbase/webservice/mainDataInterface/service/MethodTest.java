@@ -12,18 +12,17 @@ public class MethodTest {
 
     public static void main(String[] args) throws Exception {
         MDMWebServiceProxy webServiceProxy = new MDMWebServiceProxy();
-        //MDMWebService mdmWebService = webServiceProxy.getMDMWebService();
-      /*  String key = webServiceProxy.getKey("KGOA", DESUtil.encrypt("sG18Yy6v01ZoNq9x1hk1Vg=="));
+        String key = webServiceProxy.getKey("MSTH", DESUtil.encrypt("LlRCrnfSg9fDekM0KV+rkA=="));
         System.out.println("key::"+key);
-        String hrInfo = webServiceProxy.getHrInfo("KGOA", key, DESUtil.encrypt("UNIT"),
+        String hrInfo = webServiceProxy.getHrInfo("MSTH", key, DESUtil.encrypt("UNIT"),
                "","", DESUtil.encrypt("1"));
         String info = DESUtil.decrypt(hrInfo);
-        System.out.println("hrInfo:"+DESUtil.decrypt(hrInfo));*/
-        String key = webServiceProxy.getKey("MSOA", DESUtil.encrypt("gIqj3oK532QTI4pmIa0zNw=="));
+        System.out.println("hrInfo:"+DESUtil.decrypt(hrInfo));
+        /*String key = webServiceProxy.getKey("MSOA", DESUtil.encrypt("gIqj3oK532QTI4pmIa0zNw=="));
         System.out.println("key::"+key);
         String hrInfo = webServiceProxy.getHrInfo("MSOA", key, DESUtil.encrypt("UNIT"),
                "","", DESUtil.encrypt("1"));
-        System.out.println("hrInfo:"+DESUtil.decrypt(hrInfo));
+        System.out.println("hrInfo:"+DESUtil.decrypt(hrInfo));*/
     }
 
     /**

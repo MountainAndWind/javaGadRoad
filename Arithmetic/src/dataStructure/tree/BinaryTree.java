@@ -1,7 +1,8 @@
 package dataStructure.tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
+import sun.reflect.generics.tree.Tree;
+
+import java.util.*;
 
 /**
  * @description:此处采用链式存储法，如果某棵二叉树是一棵完全二叉树，那用数组存储无疑是最节省内存的一种方式。
@@ -110,24 +111,18 @@ public class BinaryTree {
     /**
      * 非迭代方式获取 --前序遍历  利用栈的数据接口
      */
-    public void preNonRecOrder(TreeNode node) {
-        LinkedList<TreeNode> linkNode = new LinkedList<TreeNode>();
-        if (node == null) {
-            return;
-        } else {
-            linkNode.push(node);
+    public Iterable<TreeNode> preNonRecOrder(TreeNode node) {
+        List<TreeNode> outList = new LinkedList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(node);
+        while (!stack.isEmpty()){
+            TreeNode pop = stack.pop();
+            if (pop == null) continue;
+            outList.add(pop);
+            stack.push(pop.rightChild);
+            stack.push(pop.leftChild);
         }
-        while(!linkNode.isEmpty()) {
-            TreeNode tn = linkNode.pop();
-            System.out.println("preNonRecOrder : "+tn.data);
-            if (tn.rightChild != null) {
-                linkNode.push(tn.rightChild);
-            }
-            if (tn.leftChild != null) {
-                linkNode.push(tn.leftChild);
-            }
-        }
-
+        return outList;
     }
 
     /**
@@ -152,41 +147,18 @@ public class BinaryTree {
      *     B     C   ；
      *   D   E  F  G ；
      */
-    public void postNonRecOrder(TreeNode node) {
-        LinkedList<TreeNode> linkNode = new LinkedList<TreeNode>();
-        if (node == null) {
-            return;
-        } else {
-            linkNode.push(node);
-            if (node.rightChild != null) {
-                linkNode.push(node.rightChild);
-            }
-            if (node.leftChild != null) {
-                linkNode.push(node.leftChild);
-            }
-            node.visited=1;
+    public Iterable<TreeNode> postNonRecOrder(TreeNode node) {
+        Stack<TreeNode> outStack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(node);
+        while (!stack.isEmpty()){
+            TreeNode pop = stack.pop();
+            if (pop == null) continue;
+            outStack.add(pop);
+            stack.push(pop.leftChild);
+            stack.push(pop.rightChild);
         }
-        while(!linkNode.isEmpty()) {
-            TreeNode tn = linkNode.pop();
-            if(tn.rightChild == null && tn.leftChild == null) {
-                tn.visited = 1;
-                System.out.println("midNonRecOrder : "+tn.data);
-                continue;
-            }
-            if(tn.visited != 1) {
-                linkNode.push(tn);
-                if (tn.rightChild != null) {
-                    linkNode.push(tn.rightChild);
-                }
-                if (tn.leftChild != null) {
-                    linkNode.push(tn.leftChild);
-                }
-                tn.visited = 1;
-            }else {
-                System.out.println("midNonRecOrder : "+tn.data);
-            }
-        }
-
+        return outStack;
     }
     /**
      *        A     ；
@@ -214,41 +186,44 @@ public class BinaryTree {
      *     B     C   ；
      *   D   E  F  G ；
      */
-    public void midNonRecOrder(TreeNode node) {
-        LinkedList<TreeNode> linkNode = new LinkedList<TreeNode>();
-        if (node == null) {
-            return;
-        } else {
-            if (node.rightChild != null) {
-                linkNode.push(node.rightChild);
+    public List<TreeNode> midNonRecOrder(TreeNode root) {
+        List<TreeNode> ret = new ArrayList<>();
+        if (root == null) return ret;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.leftChild;
             }
-            linkNode.push(node);
-            node.visited=1;
-            if (node.leftChild != null) {
-                linkNode.push(node.leftChild);
-            }
+            TreeNode node = stack.pop();
+            ret.add(node);
+            cur = node.rightChild;
         }
-        while(!linkNode.isEmpty()) {
-            TreeNode tn = linkNode.pop();
-            if(tn.rightChild == null && tn.leftChild == null) {
-                tn.visited = 1;
-                System.out.println("midNonRecOrder : "+tn.data);
-                continue;
-            }
-            if(tn.visited != 1) {
-                if (tn.rightChild != null) {
-                    linkNode.push(tn.rightChild);
-                }
-                linkNode.push(tn);
-                if (tn.leftChild != null) {
-                    linkNode.push(tn.leftChild);
-                }
-                tn.visited = 1;
-            }else {
-                System.out.println("midNonRecOrder : "+tn.data);
-            }
-        }
+        return ret;
+    }
 
+    /**
+     * 非迭代方式获取 --中序遍历   DEBAFGC
+     *        A     ；
+     *     B     C   ；
+     *   D   E  F  G ；
+     */
+    public List<TreeNode> remidNonRecOrder(TreeNode root) {
+        List<TreeNode> ret = new ArrayList<>();
+        if (root == null) return ret;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.rightChild;
+            }
+            TreeNode node = stack.pop();
+            ret.add(node);
+            cur = node.leftChild;
+        }
+        return ret;
     }
 
     /**
@@ -257,7 +232,12 @@ public class BinaryTree {
     public static void main(String[] args) {
         BinaryTree bt = new BinaryTree();
         bt.createBinaryTree();
-        System.out.println("BinaryTree 深度：" + bt.getHeight());
+        List<TreeNode> treeNodes = (List<TreeNode>)bt.midNonRecOrder(bt.root);
+        for (TreeNode treeNode : treeNodes) {
+            System.out.println(treeNode.data);
+        }
+
+
 //      System.out.println("BinaryTree 深度：" + bt.getHeight());
 //      System.out.println("BinaryTree 节点数：" + bt.getSize());
 //      bt.preOrder(bt.root);
@@ -311,6 +291,9 @@ public class BinaryTree {
         public String data;
         public TreeNode leftChild;
         public TreeNode rightChild;
+        public TreeNode left;
+        public TreeNode right;
+        public int val;
         public int visited;
 
         public TreeNode(int index, String data) {
@@ -320,7 +303,13 @@ public class BinaryTree {
             this.visited = 0;
             this.leftChild = null;
             this.rightChild = null;
+            this.left = null;
+            this.right = null;
+            this.val = index;
         }
+
+        public TreeNode(int x) { val = x; }
+
 
         public int getVisited() {
             return visited;

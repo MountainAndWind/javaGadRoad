@@ -33,7 +33,12 @@ public class Topological {
         return order !=null;
     }
 
-    public Iterable<Integer>  topologicalByInDragee(Digraph digraph){
+    /**
+     * 实现2：查找入度
+     * @param digraph
+     * @return
+     */
+    public static Iterable<Integer>  topologicalByInDragee(Digraph digraph){
         int[] arrInDegree = new int[digraph.getV()];
         Stack<Integer> stack = new Stack<>();
 
@@ -52,6 +57,36 @@ public class Topological {
                 arrInDegree[w] = arrInDegree[w]-1;
                 if(arrInDegree[w]==0){
                     stack.push(w);
+                }
+            }
+        }
+        return outList;
+    }
+
+    /**
+     * 实现2：查找入度
+     * @param digraph
+     * @return
+     */
+    public static Iterable<Integer>  topologicalByInDragee(EdgeWeightedDiGraph digraph){
+        int[] arrInDegree = new int[digraph.getV()];
+        Stack<Integer> stack = new Stack<>();
+
+        List<Integer> outList = new LinkedList<>();
+        for (int i = 0; i <digraph.getV() ; i++) {
+            arrInDegree[i] = digraph.getIn(i);
+            if(digraph.getIn(i)==0){
+                stack.push(i);
+            }
+        }
+        while (!stack.isEmpty()){
+            Integer pop = stack.pop();
+            outList.add(pop);
+            LinkedList<EdgeWeightedDiGraph.DirectedEdge> linkedList = digraph.adj(pop);
+            for (EdgeWeightedDiGraph.DirectedEdge edge : linkedList) {
+                arrInDegree[edge.to()] = arrInDegree[edge.to()]-1;
+                if(arrInDegree[edge.to()]==0){
+                    stack.push(edge.to());
                 }
             }
         }

@@ -1,10 +1,12 @@
 package test.HttpRequest;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import test.HttpRequest.Bean.Contents;
-import test.HttpRequest.Bean.Contents;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -62,12 +64,23 @@ public class JsonTest {
                 "                    }\n" +
                 "                }";
 
+        String a = "{'email':'dsadas'}";
+
 
         Contents returnInfo = JSONObject.parseObject(testStr, Contents.class);
-        String new_duration = returnInfo.getValue().getAttendance().getDate_range().getNew_duration();
+        Contents returnInfo2 = JSONObject.parseObject(testStr, Contents.class);
+        List<Contents> list = new ArrayList<>();
+        list.add(returnInfo);
+        list.add(returnInfo2);
+        HashMap map = new HashMap();
+        String s = JSON.toJSONString(map);
+        System.out.println("s::"+s);
+        String  jsonObject =  JSON.toJSONString(list);
+        System.out.println(jsonObject);
+       /* String new_duration = returnInfo.getValue().getAttendance().getDate_range().getNew_duration();
         double day = GetUnixStarp.getDay(new_duration);
         System.out.println(day);
-        System.out.println(new Date());
+        System.out.println(new Date());*/
         /*ApproveReturnInfo returnInfo = JSONObject.parseObject(test2, ApproveReturnInfo.class);
         System.out.println("JSON字符串转换成Java对象\n" + returnInfo.toString());//Student{name='公众号编程大道', sex='m', age=2}
 */

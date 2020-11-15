@@ -23,15 +23,15 @@ public class LongYeBanKRequestWeixin {
 
     public static void main(String[] args) throws Exception {
 
-        /*公司di*/
-     /*   String corpId="wwc13c1764abd824ff";
+    /*    *//*公司di*//*
+     *//*   String corpId="wwc13c1764abd824ff";
         String corpsecret="ckihvqQ_DLFl966sOXoGa2vZLFtWM6PhnRvbsCyZg1Q";
         String token1 = getToken(corpId, corpsecret, TOKEN_URL);
         TokenMsgBean returnInfoToken = JSONObject.parseObject(token1, TokenMsgBean.class);
         System.out.println("returnInfoToken::"+returnInfoToken);
-        */
+        *//*
         //String token = returnInfoToken.getAccess_token();
-        /*String endTime = GetUnixStarp.Date2TimeStamp("2020-01-06 12:22:11","yyyy-MM-dd HH:mm:ss");
+        *//*String endTime = GetUnixStarp.Date2TimeStamp("2020-01-06 12:22:11","yyyy-MM-dd HH:mm:ss");
         String startTime = GetUnixStarp.Date2TimeStamp("2020-01-09 12:22:01","yyyy-MM-dd HH:mm:ss");
         String token="XocuxLTC4kM-WObHyOm49BGlhOhF_i67xUPtWWm9v_m9ruJ3ZgVQMDPlN4rLa9SlkUBu10P0IkCLWn-sjBt3igXdLwFbu0PsYPWNs6wuWXHy5KRyZ_1XKW4YWYeG7tMZkbrcQjL9mF1O-HUuwCp9lgJF6IUTbHoxImc-rTZIvnlFH-gLtid4J_mCoe0UVUdXc_hju3wKYMpg_iJyKU3E5A";
         boolean flag=true;
@@ -64,7 +64,7 @@ public class LongYeBanKRequestWeixin {
             if(spNoReturnBean.getNext_cursor()==null){
                 flag=false;
             }
-        }*/
+        }*//*
         String token = "lGtjHkL2UoGV0MY7z8vszPtqmmmvie203L8lDPcvfaEsjklHJ4eY1Q6xza6PkNxTJ3UYG8bGp9_fCmX2gpgGjcOxWslqgXGkD7zpNQI5w5faiiOM0Lr-O_m4FBmD0vWfFxNDdz6qaRrRQx-rtw3zL9keYM6Qa2yhiEHGPPutBTfNh4cq8-aUo_yzz72gPwgp9CbSsplbanAYHLYXwTZHbA";
         ApproveReturnInfo approveReturnInfo = JSONObject.parseObject(testDetail(token,"202006290093"),ApproveReturnInfo.class);
         String sp_name = approveReturnInfo.getInfo().getSp_name();
@@ -75,7 +75,7 @@ public class LongYeBanKRequestWeixin {
             writeToOa(approveReturnInfo,"main","detail");
         }else{
             writeToOa(approveReturnInfo,"main","detail");
-        }
+        }*/
     }
 
     /**

@@ -1,10 +1,15 @@
 package test.HttpRequest;
 
+import com.alibaba.fastjson.JSON;
+import sun.reflect.generics.tree.Tree;
+
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * @description:
@@ -12,6 +17,19 @@ import java.util.Map;
  * @time: 2020/4/16 15:14
  */
 public class Request {
+
+    public static void main(String[] args) {
+        TreeMap map = new TreeMap();
+        map.put("A","1");
+        map.put("B","2");
+        map.put("C","3");
+        map.put("D","4");
+        map.put("E","4");
+        map.put("F","4");
+        map.put("G","4");
+        map.put("H","4");
+        System.out.println(JSON.toJSONString(map));
+    }
 
     /**
      * GET请求

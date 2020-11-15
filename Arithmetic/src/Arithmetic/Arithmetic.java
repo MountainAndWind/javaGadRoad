@@ -6,4 +6,5 @@ package Arithmetic;
  * @time: 2020/4/12 21:08
  */
 public class Arithmetic {
+
 }
