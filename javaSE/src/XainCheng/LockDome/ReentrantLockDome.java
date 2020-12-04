@@ -1,5 +1,6 @@
 package XainCheng.LockDome;
 
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -10,10 +11,47 @@ import java.util.concurrent.locks.ReentrantLock;
  **/
 public class ReentrantLockDome {
 
+    //可重入锁
+    ReentrantLock lock = new ReentrantLock();
+
+    private int nums=100;
+
+    class Dome implements Runnable{
+        @Override
+        public void run() {
+
+            lock.lock();
+            try {
+                while (nums>=0){
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(Thread.currentThread().getName()+"::消费了"+nums--);
+                }
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+                lock.unlock();
+            }
+            finally {
+                lock.unlock();
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
 
-        /*ReentrantLock lock = new ReentrantLock();
+        ReentrantLockDome.Dome dome = new ReentrantLockDome().new Dome();
+        for (int i = 0; i < 3; i++) {
+            new Thread(dome,"测试1").start();
+            new Thread(dome,"测试2").start();
+            new Thread(dome,"测试3").start();
+        }
+
+
+       /* ReentrantLock lock = new ReentrantLock();
         for (int i = 0; i < 2; i++) {
             Thread thread = new Thread("线程持续"+i){
                 public void run(){
@@ -30,9 +68,9 @@ public class ReentrantLockDome {
                 }
             };
             thread.start();
-        }
+        }*/
 
-        Thread thread2 = new Thread("try"){
+       /* Thread thread2 = new Thread("try"){
             public void run(){
                 try {
                     lock.tryLock();
@@ -48,18 +86,17 @@ public class ReentrantLockDome {
                     }
                 }
             }
-        };
-        thread2.start();
-    }*/
+        };*/
+        //thread2.start();
 
-        ReentrantLock lock = new ReentrantLock(true);//开启公平锁模式
+        /*ReentrantLock lock = new ReentrantLock(true);//开启公平锁模式
         for (int i = 0; i <100 ; i++) {
             Thread a = new Thread(""+i){
                 public void run(){
                         lock.lock();
                         try {
                             System.out.println(Thread.currentThread().getName()+"运行----------------------------------");
-                            /*TimeUnit.SECONDS.sleep(1000);*/
+                            *//*TimeUnit.SECONDS.sleep(1000);*//*
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -69,6 +106,6 @@ public class ReentrantLockDome {
                     }
             };
             a.start();
-        }
+        }*/
     }
 }

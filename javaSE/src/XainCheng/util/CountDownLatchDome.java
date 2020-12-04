@@ -1,4 +1,4 @@
-package XainCheng;
+package XainCheng.util;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -19,14 +19,35 @@ public class CountDownLatchDome {
 
     private static int c;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        //test1();
+        test2();
+
+
+
+    }
+
+    private static void test2() throws InterruptedException {
+        CountDownLatch countDownLatch = new CountDownLatch(6);
+        for (int i = 0; i <6 ; i++) {
+            new Thread(()->{
+                countDownLatch.countDown();//每次有线程调用 countDown() 数量-1，假设计数器变为0，
+                // countDownLatch.await() 就会被唤醒，继续执行
+                System.out.println("门sauna  消费减一");
+            }).start();
+        }
+
+        countDownLatch.await();// 等待计数器归零，然后再向下执行
+        System.out.println("结束");
+    }
+
+    private static void test1() {
         CountDownLatch latch = new CountDownLatch(2);
         new A(latch).start();
         new B(latch).start();
         new C(latch).start();
-        System.out.println(CountDownLatch.class.getClassLoader());
-
     }
+
     static class A extends Thread{
 
         private CountDownLatch countDownLatch;

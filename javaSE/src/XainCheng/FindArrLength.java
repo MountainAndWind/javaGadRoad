@@ -15,7 +15,7 @@ public class FindArrLength {
          String s ="sdasdasdasdasdasdashakjsdhlasjdjasdlka;sdlk;asjdalsfkajsldjasjjalfjalsjd;lasjdkaskdasj;fjasf;ajs;fja;sljf;a;dasljdaskd;ka;sdkakdasldk;alsk;laks;fka;lsfk;askd;kd;k;sdksak;dask;dl;askd;laksdl;kas;ldk;askd;aks;dlka;sdk;askd;kas;dk;askd;lsak;lfkas;fk;askf;askf;ask;fadks;lk;fksf";
         int length = s.length();
         List<String> strings = Arrays.asList(s);
-         strings.size();
+        strings.size();
     }
 }
 /**

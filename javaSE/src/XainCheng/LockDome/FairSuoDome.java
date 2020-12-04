@@ -3,7 +3,7 @@ package XainCheng.LockDome;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @description
+ * @description  公平锁案列
  * @Author slfang
  * @Time 2019/3/29 16:43
  * @Version 1.0
