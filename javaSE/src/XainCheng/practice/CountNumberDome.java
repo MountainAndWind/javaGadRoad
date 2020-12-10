@@ -1,4 +1,4 @@
-package XainCheng.ThreadPool;
+package XainCheng.practice;
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -15,7 +15,6 @@ public class CountNumberDome {
         long end1 = System.currentTimeMillis();
         System.out.println(list.size());
         System.out.println("单线程环境下的时间是:"+(end1-start1));
-
         long start2 = System.currentTimeMillis();
         ExecutorService executorService = Executors.newFixedThreadPool(4);
         Future<List<Integer>> submit1 = executorService.submit(new Task(1, 80000));
@@ -25,21 +24,16 @@ public class CountNumberDome {
         long end2 = System.currentTimeMillis();
         System.out.println(submit1.get().size()+submit2.get().size()+submit3.get().size()+submit4.get().size());
         System.out.println("多线程环境下的时间是:"+(end2-start2));
-
         TimeUnit.SECONDS.sleep(1);
         System.out.println("演示结束。。。。。");
     }
 
-
     static class Task implements Callable<List<Integer>>{
-
         int start,end;
-
         Task(int start,int end){
             this.start = start;
             this.end = end;
         }
-
         @Override
         public List<Integer> call() throws Exception {
             return getPrime(start,end);

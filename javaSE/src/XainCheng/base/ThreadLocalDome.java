@@ -1,14 +1,15 @@
-package XainCheng;
+package XainCheng.base;
 
 
 /**
- * @description 娴嬭瘯鏈湴绾跨▼鍙橀噺
+ * @description 测试本地线程变量
  * @Author slfang
  * @Time 2019/3/30 19:48
  * @Version 1.0
  **/
 public class ThreadLocalDome {
 
+    //线程局部变量（效率高）查    不会与其他线程共享。
     static final ThreadLocal LOCAL = new ThreadLocal();
 
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class ThreadLocalDome {
             public void run() {
                while (true){
                    LOCAL.set(new Student("SETNAME"));
-                   System.out.println("set绾跨▼寰楀埌"+LOCAL.get());
+                   System.out.println("set线程得到"+LOCAL.get());
                }
             }
         };
@@ -29,7 +30,7 @@ public class ThreadLocalDome {
             @Override
             public void run() {
                while (true){
-                   System.out.println("GET绾跨▼寰楀埌"+LOCAL.get());
+                   System.out.println("GET线程得到"+LOCAL.get());
                }
             }
         };

@@ -1,4 +1,4 @@
-package XainCheng.LockDome;
+package XainCheng.LockDome.consumerAndPro;
 
 /**
  * @description  模拟生产者与消费者模式

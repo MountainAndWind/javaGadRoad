@@ -4,6 +4,7 @@ import java.util.concurrent.*;
 
 /**
  * @description  ScheduledPool测试类
+ *     内部实现是ScheduledThreadPoolExecutor
  * @Author slfang
  * @Time 2019/4/2 11:01
  * @Version 1.0

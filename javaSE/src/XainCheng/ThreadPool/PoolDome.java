@@ -35,15 +35,24 @@ public class PoolDome {
 
 
         // ThreadPoolExecutor构造方法7大参数讲解  有道云笔记【4、ThreadPoolExecutor（线程池创建者）】
-        //
+        //public ThreadPoolExecutor(
+        //     int corePoolSize, // 核心线程池大小
+        //     int maximumPoolSize, // 最大核心线程池大小
+        //     long keepAliveTime, // 超时了没有人调用就会释放
+        //     TimeUnit unit, // 超时单位
+        //     BlockingQueue<Runnable> workQueue, // 阻塞队列
+        //         队列分为有界队列与无界队列 todo
+        //     ThreadFactory threadFactory, // 线程工厂：创建线程的，一般 不用动
+        //     RejectedExecutionHandler handle // 拒绝策略)
+        //         当有界队列中线程数大于maximumPoolSize执行拒绝策略  4种
+        // 参数模型可以狂神JUC 笔记
 
+        // 扩展 有道云笔记4、ThreadPoolExecutor（线程池创建者）以及线程池的扩展
+        //      线程池应该如何去设置
+        //      了解：IO密集型，CPU密集型：（调优）   要最高效地利用CPU，计算密集型任务同时进行的数量应当等于CPU的核心数。
 
-
-
-
-
-
-
+        //输出cpu的核数
+        System.out.println(Runtime.getRuntime().availableProcessors());
 
 
     }
@@ -100,7 +109,6 @@ public class PoolDome {
      * submit()，提交一个线程任务，有返回值。
      */
     private static void test2() {
-        Executors.newWorkStealingPool();
         ExecutorService executorService = Executors.newFixedThreadPool(4);
         for (int i = 0; i < 5; i++) {
             Future<String> submit = executorService.submit(new Callable<String>() {//匿名内部类方式

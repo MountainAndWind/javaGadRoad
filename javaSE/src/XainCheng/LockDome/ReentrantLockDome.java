@@ -11,7 +11,10 @@ import java.util.concurrent.locks.ReentrantLock;
  **/
 public class ReentrantLockDome {
 
-    //可重入锁
+    /**
+     * Lock接口中每个方法的使用，lock()、tryLock()、tryLock(long time, TimeUnit unit)
+     * 和lockInterruptibly()是用来获取锁的。unLock()方法是用来释放锁的
+     */
     ReentrantLock lock = new ReentrantLock();
 
     private int nums=100;
@@ -41,15 +44,16 @@ public class ReentrantLockDome {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
-        ReentrantLockDome.Dome dome = new ReentrantLockDome().new Dome();
+        /*ReentrantLockDome.Dome dome = new ReentrantLockDome().new Dome();
         for (int i = 0; i < 3; i++) {
             new Thread(dome,"测试1").start();
             new Thread(dome,"测试2").start();
             new Thread(dome,"测试3").start();
-        }
+        }*/
 
+        test1();
 
        /* ReentrantLock lock = new ReentrantLock();
         for (int i = 0; i < 2; i++) {
@@ -107,5 +111,43 @@ public class ReentrantLockDome {
             };
             a.start();
         }*/
+    }
+
+    /**
+     * lockInterruptibly()方法比较特殊，当通过这个方法去获取锁时，如果线程正在等待获取锁，
+     * 则这个线程能够响应中断，即中断线程的等待状态。
+     */
+    private static void test1() throws InterruptedException {
+
+        ReentrantLock lock = new ReentrantLock();
+        Thread thread = new Thread(new InterThread(lock), "test1");
+        Thread thread1 = new Thread(new InterThread(lock), "test2");
+        thread.start();
+        thread1.start();
+        TimeUnit.SECONDS.sleep(4);
+        //thread1.interrupt();
+    }
+}
+
+class InterThread implements Runnable{
+    private ReentrantLock lock ;
+
+    public InterThread(ReentrantLock lock){
+        this.lock =lock;
+    }
+
+    @Override
+    public void run() {
+        try{
+            lock.lockInterruptibly();
+            while (true){
+                System.out.println(Thread.currentThread().getName()+"执行");
+            }
+        }catch (Exception e){
+            System.out.println(Thread.currentThread().getName()+"ex");
+            e.printStackTrace();
+        }finally {
+            lock.unlock();
+        }
     }
 }

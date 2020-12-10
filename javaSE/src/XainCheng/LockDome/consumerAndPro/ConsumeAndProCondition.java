@@ -1,4 +1,4 @@
-package XainCheng.LockDome;
+package XainCheng.LockDome.consumerAndPro;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,9 +1,7 @@
-package XainCheng.LockDome;
+package XainCheng.LockDome.consumerAndPro;
 
-import java.util.Random;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @description 使用同步容器实现成产者与消费者  此处应该是使用生产和消费者各使用单线程来实现，各自多线程会出现线程安全问题

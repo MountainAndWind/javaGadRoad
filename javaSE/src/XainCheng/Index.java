@@ -2,6 +2,7 @@ package XainCheng;
 
 import XainCheng.LockDome.FairSuoDome;
 import XainCheng.LockDome.TicketSellWindow;
+import XainCheng.ThreadPool.ForkJoinPoolDome;
 import XainCheng.ThreadPool.PoolDome;
 import XainCheng.base.CollectionUnSafeDome;
 import XainCheng.base.DaemonThread;
@@ -10,6 +11,7 @@ import XainCheng.jucContainer.BlockingQueueDome;
 import XainCheng.util.CountDownLatchDome;
 import XainCheng.util.CyclicBarrierDemo;
 import XainCheng.util.SemaphoreDome;
+import sun.plugin2.jvm.RemoteJVMLauncher;
 
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -24,8 +26,11 @@ public class Index {
         Index index = new Index();
         //线程的状态
         //Thread.State; 6种
+        // 1、NEW（新建）2、RUNNABLE (Java线程中将就绪（ready）和运行中（running）两种状态笼统的称为“运行”。 )，
+        // 3、BLOCKED 阻塞状态是线程阻塞在进入synchronized关键字修饰的方法或代码块(获取锁)时的状态、
+        // 4、WAITING 进入该状态的线程需要等待其他线程做出一些特定动作（通知或中断） wait join 会进入waiting 5、TIMED_WAITING【超时等待】该状态不同于WAITING，它可以在指定的时间后自行返回
+        // 6、终止(TERMINATED)：表示该线程已经执行完毕。
         //线程的生命周期
-
         //线程的创建
         //1、继承Thread类
         for(int j = 0;j < 50;j++) {
@@ -75,33 +80,33 @@ public class Index {
         //线程的优先级  1-10  只是权重问题  不是绝对
         int priority = thread.getPriority();
         thread.setPriority(10);
+
         //线程分为用户线程与守护线程  守护线程又称精灵线程（主线程与次线程之分，setDeamon（boolean） 将该线程设置为守护线程
         //当正在运行的线程都是守护线程时jvm退出，该方法需在线程启动前调用，运行效果：当前主线程运行完毕，其他线程也随之退出）
         //所谓守护线程是指在程序运行的时候在后台提供一种通用服务的线程，比如垃圾回收线程就是一个很称职的守护者，并且这种线程并不属于程序中不可或缺的部分。
         // 因 此，当所有的非守护线程结束时，程序也就终止了，同时会杀死进程中的所有守护线程。反过来说，只要任何非守护线程还在运行，程序就不会终止。
         DaemonThread daemonThread = new DaemonThread();
+
         //线程同步机制
         //对线程下的问题  访问同一个对象造成数据安全问题
         TicketSellWindow ticketSellWindow = new TicketSellWindow();
         //解决 队列加锁  使用关键字  synchronized
         //但是使用锁会造成阻塞影响效率，以及性能倒置
+        //synchronized的缺陷   有道云笔记锁机制 2
         //同步方法的弊端方法中需要修改的东西才需要锁，锁太多浪费资源
+
         //显示锁 lock (手动开关锁)     synchronized是隐式锁，锁是自动释放  ReentrantLockDome.Dome
         //使用lock锁JVM将花费更少的时间来调度，性能更好，并有更好的扩展性  也可以使用读写锁提高效率
-        ReentrantLock lock = new ReentrantLock();//无参数 ，为非公平锁
+        ReentrantLock lock = new ReentrantLock();//无参数 ，为非公平锁 原理AQS
         FairSuoDome fairSuoDome = new FairSuoDome();
 
         //线程的协作通信
         //生产者消费者模式
         //等待唤醒
-
-        //虚假唤醒问题  todo
-
+        //虚假唤醒问题 （多线程中测试某个条件的变化不使用if 而是用 while）
         //ConsumeAndProCondition  利用lock与condition实现消费者与生产者模型  可以实现精准唤醒
-
         // synchronized锁的是对象
         // 静态同步方法锁的是类字节码对象
-
         //集合类不安全
         CollectionUnSafeDome unSafeDome = new CollectionUnSafeDome();
 
@@ -128,6 +133,27 @@ public class Index {
         // 程序的运行，本质：占用系统的资源！ 优化资源的使用！=>池化技术 线程池、连接池、内存池、对象池///..... 创建、销毁。十分浪费资源
         // 池化技术：事先准备好一些资源，有人要用，就来我这里拿，用完之后还给我。
         // 降低资源的消耗,提高响应的速度,方便管理。
+        PoolDome poolDome = new PoolDome();
+
+        // Stream流式计算 ,ForkJoin
+        ForkJoinPoolDome forkJoinPoolDome = new ForkJoinPoolDome();
+
+        //JDK8中新增的CompletableFuture被用于异步编程，异步通常意味着非阻塞以使得我们
+        //     的任务单独运行在与主线程分离的其他线程中，并且通过回调可以在主线程中得到异步任务的执行状态，是否完成，和是否异常等信息
+        //Futrue在Java里面，通常用来表示一个异步任务的引用，比如我们将任务提交到线程
+        //     池里面，然后我们会得到一个Futrue，在Future里面有isDone方法来 判断任务
+        //     是否处理结束，还有get方法可以一直阻塞直到任务结束然后获取结果，但整体来说
+        //     这种方式，还是同步的，因为需要客户端不断阻塞等待或者不断轮询才能知道任务是否完成。
+        //Java 8新增的CompletableFuture类正是吸收了所有Google Guava中ListenableFuture和SettableFuture的特征，还提供了其它强大的功能，
+        //     让Java拥有了完整的非阻塞编程模型：Future、Promise 和 Callback(在Java8之前，只有无Callback 的Future)。
+        //     具体见有道云
+
+
+
+
+
+
+
 
 
 
